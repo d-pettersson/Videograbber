@@ -3,6 +3,10 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+    
+    // disable rect textures, use 2D instead (normalised coordinates)
+    ofDisableArbTex();
+    
     ofSetFrameRate(30);
     
     // osc receiver setup
@@ -133,10 +137,10 @@ void ofApp::draw(){
     shader.setUniformTexture("wifiTex", wifiFbo.getTexture(0), 2); // bind texture to buffer 2
     
     // setting up uniforms
-    float time = cos(ofGetElapsedTimef());
+    float time = ofGetElapsedTimef();
     shader.setUniform1f("time", time);
-    
-    
+
+    int resolution[2] = {ofGetWidth(), ofGetHeight()};
     shader.setUniform3iv("resolution", resolution);
     
     // blend the two fbos together
