@@ -1,0 +1,11 @@
+[
+    { "url": "http://194.103.218.15/axis-cgi/mjpg/video.cgi?resolution=320x240", "_comment": "some scandinavian webcam"},
+    { "url": "http://192.171.163.3/axis-cgi/mjpg/video.cgi?resolution=320x240", "_comment": "UK Coast"},
+    { "url": "http://84.242.4.43/axis-cgi/mjpg/video.cgi?resolution=320x240", "_comment": "St Petersburg"},
+    { "url": "http://194.117.188.138/axis-cgi/mjpg/video.cgi?resolution=320x240", "_comment": "Sweden"},
+    { "url": "http://212.30.240.7/axis-cgi/mjpg/video.cgi?resolution=320x240", "_comment": "Iceland"},
+    { "url": "http://cam1.rauris.net/axis-cgi/mjpg/video.cgi", "_comment": "Rauris(?) marktplatz"},
+    { "url": "http://camera3.buffalotrace.com/axis-cgi/mjpg/video.cgi?resolution=320x240", "_comment": "Buffalotrace"},
+    { "url": "http://camera2.buffalotrace.com/axis-cgi/mjpg/video.cgi", "_comment": "Buffalotrace"},
+    { "url": "http://ekinsl.dynalias.net:8094/axis-cgi/mjpg/video.cgi?resolution=320x240", "_comment": "Itzurungo"}
+]

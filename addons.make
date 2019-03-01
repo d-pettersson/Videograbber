@@ -1,0 +1,3 @@
+ofxIpVideoGrabber-master
+ofxOsc
+ofxPoco
